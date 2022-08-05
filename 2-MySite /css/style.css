@@ -20,7 +20,7 @@
 main {
     height: 80vh;
     position: relative; 
-    background: url(/2-MySite/images/bg.png) var(--champagnePink);
+    background: url(../images/bg.png) var(--champagnePink);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
