@@ -1,0 +1,13 @@
+Create a new function called nextSequence()
+Inside the new function generate a new random number between 0 and 3, and store it in a variable called
+Create a new array called buttonColours and set it to hold the sequence "red", "blue", "green", "yellow"
+Create a new variable called randomChosenColour and use the randomNumber select a random colour from the buttonColours array
+Create a new empty array called gamePattern
+Add the new randomChosenColour generated to the end of the gamePattern.
+Use jQuery to select the button with the same id as the randomChosenColour
+Use jQuery to animate a flash to the button selected
+Use Javascript to play the sound for the button colour
+Use jQuery to detect when any of the buttons are clicked and trigger a handler function
+Inside the handler, create a new variable called userChosenColour to store the id of the button that got clicked.
+Create a new empty array with the name userClickedPattern
+Add the contents of the variable userChosenColour to the end of userClickedPattern
