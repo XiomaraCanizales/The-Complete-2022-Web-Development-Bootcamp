@@ -20,14 +20,11 @@
 main {
     height: 80vh;
     position: relative; 
-    background: url(/2.CSS-MySite/images/bg.png) var(--champagnePink);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   /* WRONG
-    background-color: var(--champagnePink);
-    background: url('images/bg.png'); */
+    background: url(/2-MySite/images/bg.png) var(--champagnePink);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 { 
@@ -79,12 +76,14 @@ p {
 }
 
 div { padding-bottom: 3rem;}
+
 .profile img { width: 20%; }
 
 .text{
     width: 70%;
     margin: 0 auto;
 }
+
 .skill-row {
     width: 70%;
     margin: 2rem auto;
@@ -107,13 +106,13 @@ div { padding-bottom: 3rem;}
     margin: 1rem;
     }
 
-    .btn:hover {
-        background: var(--melon);
-        font-size: 1.4rem;
-    }
+.btn:hover {
+    background: var(--melon);
+    font-size: 1.4rem;
+}
 
  footer { 
     height: 5vh; 
     padding: 5rem;
     background-color: var(--roseDust); 
-    }
+}
