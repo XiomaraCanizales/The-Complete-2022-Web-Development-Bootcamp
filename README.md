@@ -28,14 +28,13 @@ Repository for all projects on this Bootcamp
 3. Site TinDog
 4. Dicee
 5. Drum Kit
-6. Drum Kit 2.0
-7. Simon Game
-8. Calculator
-9. Newsletter Subscription
-10. Weather App
-11. A ToDo List
-12. Blog Website
-13. DBANK
+6. Simon Game
+7. Calculator
+8. Newsletter Subscription
+9. Weather App
+10. A ToDo List
+11. Blog Website
+11. DBANK
 
 ## Resources
 
