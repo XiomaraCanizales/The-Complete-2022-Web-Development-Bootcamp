@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Raleway&display=swap'); 
+
+:root {
+    --jet:#292928;
+    --oldLavander: #6D6875;
+   --roseDust:  #995C68;
+    --pastelPink: #E5989B;
+    --melon: #FFB4A2;
+    --champagnePink: #FFE4D6;
+}
+
+* { 
+    box-sizing: border-box;
+    margin: auto 0;
+    color: var(--jet);
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+}
+
+main {
+    height: 80vh;
+    position: relative; 
+    background: url(/2.CSS-MySite/images/bg.png) var(--champagnePink);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   /* WRONG
+    background-color: var(--champagnePink);
+    background: url('images/bg.png'); */
+}
+
+h1 { 
+    font-family: 'Kurale', serif;
+    font-size: 5rem;
+    width: 100%;
+    color: var(--roseDust); 
+}
+
+h2, h3 {
+    color: var(--pastelPink);
+    font-family: 'Kurale', serif;
+}
+
+h2 { 
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+h3 { 
+    font-size: 1.7rem;
+    padding-bottom: 0.5rem;
+    
+} 
+
+hr {
+    border: dotted var(--oldLavander) 5px;
+    border-bottom: none;
+    width: 4%;
+    margin:  auto;
+}
+
+p {
+    padding-top: 0.5rem;
+    line-height: 1.7;
+}
+
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+.middle-container {
+    width: 75vw;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+div { padding-bottom: 3rem;}
+.profile img { width: 20%; }
+
+.text{
+    width: 70%;
+    margin: 0 auto;
+}
+.skill-row {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.icon { width: 30%;  }
+.icon1 { float: left; }
+.icon2 {  float: right; } 
+
+.btn {
+    font-family: 'Kurale', serif;
+    border-radius: 8px;
+    color: var(-jet);
+    font-size: 1.3rem;
+    background-color: var(--pastelPink);
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem;
+    }
+
+    .btn:hover {
+        background: var(--melon);
+        font-size: 1.4rem;
+    }
+
+ footer { 
+    height: 5vh; 
+    padding: 5rem;
+    background-color: var(--roseDust); 
+    }
